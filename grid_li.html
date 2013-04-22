@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Grid li Layout</title></head>
+	<style>
+		.wrap {
+			width: 450px;
+		}
+
+		.wrap ul {
+			list-style: none;
+		}
+
+		.wrap ul li {
+			float: left;
+			width: 100px;
+			height: 100px;
+			background: #efefef;
+			border-left: 1px solid #ee3300;
+			border-bottom: 1px solid #ee3300;
+		}
+
+		.wrap ul li.left {
+			border-left: none;
+		}
+
+		.wrap ul li.bottom {
+			border-bottom: none;
+		}
+	</style>
+
+	<body>
+		<div class="wrap">
+			<ul>
+				<li class="left">test</li>
+				<li>test</li>
+				<li>test</li>
+				<li>test</li>
+				<li class="left">test</li>
+				<li>test</li>
+				<li>test</li>
+				<li>test</li>
+				<li class="left bottom">test</li>
+				<li class="bottom">test</li>
+				<li class="bottom">test</li>
+				<li class="bottom">test</li>
+			</ul>
+		</div>
+	</body>
+</html>
